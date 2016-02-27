@@ -9,7 +9,7 @@ void setup() {
   cell.Boot();
   cell.dial("0542222220");
   delay(10000);
-  cell.hangup();
+  cell.hungup();
   Serial.println("Done");
 }
 
