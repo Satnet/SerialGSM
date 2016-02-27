@@ -9,7 +9,7 @@ void setup() {
   cell.Boot();
   cell.answer();
   delay(10000);
-  cell.hangup();
+  cell.hungup();
   Serial.println("Done");
 }
 
